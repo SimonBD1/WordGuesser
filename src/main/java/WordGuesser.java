@@ -94,6 +94,7 @@ public class WordGuesser {
     public static void main(String[] args) {
         //sætter ordet og gættede bogstaver
         WordGuesser wordGuesser = new WordGuesser("michelleelskerheste", "");
+        //kører metoden/spillet
         wordGuesser.Guess();
     }
 }
